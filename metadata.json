@@ -1,0 +1,6 @@
+{
+  "name": "N EARNING",
+  "description": "Complete, modern Android-style online earning application with verified task rewards, daily bonuses, referral system, UPI wallet, and comprehensive admin management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

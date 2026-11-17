@@ -1,0 +1,269 @@
+{
+  "users": [
+    {
+      "id": "usr_niraj_1",
+      "mobile": "9876543210",
+      "name": "Niraj Kumar",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Niraj&backgroundColor=b6e3f4,c0aede,d1d4f9",
+      "referralCode": "NEARN789",
+      "referredBy": null,
+      "pointsBalance": 450,
+      "upiId": "niraj@okaxis",
+      "status": "active",
+      "lastCheckInDate": "2026-11-07",
+      "checkInStreak": 3,
+      "createdAt": "2026-11-01T02:57:06.941Z",
+      "isFraudFlagged": false,
+      "totalEarnedPoints": 650,
+      "totalWithdrawnInr": 20
+    },
+    {
+      "id": "usr_priya_2",
+      "mobile": "9812345678",
+      "name": "Priya Sharma",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Priya&backgroundColor=ffd5dc,ffdfbf",
+      "referralCode": "PRIYA22",
+      "referredBy": "NEARN789",
+      "pointsBalance": 180,
+      "upiId": "priya@paytm",
+      "status": "active",
+      "lastCheckInDate": "2026-11-08",
+      "checkInStreak": 1,
+      "createdAt": "2026-11-05T02:57:06.942Z",
+      "isFraudFlagged": false,
+      "totalEarnedPoints": 180,
+      "totalWithdrawnInr": 0
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task_vid_1",
+      "title": "Watch RBI Digital Rupee Awareness Video",
+      "description": "Watch the full 25-second official educational guide on using digital currency safely and answer a quick check question.",
+      "category": "video",
+      "rewardPoints": 30,
+      "estimatedMinutes": 1,
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+      "videoDurationSeconds": 20,
+      "requiresProof": false,
+      "isActive": true,
+      "totalCompletions": 148,
+      "badge": "Verified Sponsor"
+    },
+    {
+      "id": "task_surv_1",
+      "title": "Mobile Banking & Online Earning Preferences Survey",
+      "description": "Help Indian fintech analysts understand student & worker digital payment habits. Honest answers required.",
+      "category": "survey",
+      "rewardPoints": 50,
+      "estimatedMinutes": 2,
+      "requiresProof": false,
+      "isActive": true,
+      "totalCompletions": 312,
+      "badge": "High Reward",
+      "surveyQuestions": [
+        {
+          "id": "q1",
+          "question": "Which UPI app do you use most frequently for everyday payments?",
+          "options": [
+            "Google Pay",
+            "PhonePe",
+            "Paytm UPI",
+            "BHIM UPI"
+          ]
+        },
+        {
+          "id": "q2",
+          "question": "How much time do you spend on mobile productivity tasks daily?",
+          "options": [
+            "Less than 30 mins",
+            "30 to 60 mins",
+            "1 to 2 hours",
+            "More than 2 hours"
+          ]
+        },
+        {
+          "id": "q3",
+          "question": "What is your preferred payout method?",
+          "options": [
+            "Instant UPI Transfer",
+            "Bank NEFT/IMPS",
+            "Amazon Gift Card",
+            "Mobile Recharge"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "task_promo_1",
+      "title": "Explore Government National Career Service Portal",
+      "description": "Visit the official NCS portal, browse available skill development schemes for at least 30 seconds, and return.",
+      "category": "promo",
+      "rewardPoints": 25,
+      "estimatedMinutes": 1,
+      "externalLink": "https://www.ncs.gov.in",
+      "requiresProof": false,
+      "isActive": true,
+      "totalCompletions": 219,
+      "badge": "Instant Credit"
+    },
+    {
+      "id": "task_app_1",
+      "title": "Install & Review Free Skill Learning App",
+      "description": "Download the approved partner learning application, create a basic profile, and submit your username or screenshot.",
+      "category": "app",
+      "rewardPoints": 120,
+      "estimatedMinutes": 4,
+      "externalLink": "https://play.google.com/store",
+      "requiresProof": true,
+      "proofInstructions": "Enter your registered name/email or upload screenshot of profile dashboard for admin manual verification.",
+      "isActive": true,
+      "totalCompletions": 89,
+      "badge": "Super Offer"
+    },
+    {
+      "id": "task_vid_2",
+      "title": "Watch Cyber Security Tips on OTP Protection",
+      "description": "Learn how to protect your bank accounts and UPI PIN from fraud callers. Watch 20 seconds.",
+      "category": "video",
+      "rewardPoints": 20,
+      "estimatedMinutes": 1,
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4",
+      "videoDurationSeconds": 20,
+      "requiresProof": false,
+      "isActive": true,
+      "totalCompletions": 94,
+      "badge": "Educational"
+    },
+    {
+      "id": "task_daily_1",
+      "title": "Daily App Feedback & Usability Check",
+      "description": "Quick 2-question daily feedback to keep the platform fast and responsive.",
+      "category": "daily",
+      "rewardPoints": 15,
+      "estimatedMinutes": 1,
+      "requiresProof": false,
+      "isActive": true,
+      "totalCompletions": 540,
+      "surveyQuestions": [
+        {
+          "id": "dq1",
+          "question": "How was app loading speed today?",
+          "options": [
+            "Lightning Fast",
+            "Normal",
+            "A bit slow",
+            "Encountered issue"
+          ]
+        },
+        {
+          "id": "dq2",
+          "question": "Which new task category would you like added next?",
+          "options": [
+            "Typing Tasks",
+            "App Testing",
+            "Video Ads",
+            "Local Merchant Reviews"
+          ]
+        }
+      ],
+      "badge": "Daily Refreshed"
+    }
+  ],
+  "taskSubmissions": [
+    {
+      "id": "sub_demo_1",
+      "userId": "usr_priya_2",
+      "userMobile": "9812345678",
+      "userName": "Priya Sharma",
+      "taskId": "task_app_1",
+      "taskTitle": "Install & Review Free Skill Learning App",
+      "rewardPoints": 120,
+      "proofText": "Registered with username priya_learn26, profile verified.",
+      "status": "pending",
+      "submittedAt": "2026-11-08T00:57:06.942Z"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "tx_seed_1",
+      "userId": "usr_niraj_1",
+      "type": "daily_bonus",
+      "amountPoints": 15,
+      "amountInr": 1.5,
+      "description": "Day 3 Streak Check-in Reward",
+      "status": "completed",
+      "timestamp": "2026-11-07T02:57:06.941Z"
+    },
+    {
+      "id": "tx_seed_2",
+      "userId": "usr_niraj_1",
+      "type": "task_reward",
+      "amountPoints": 50,
+      "amountInr": 5,
+      "description": "Completed: Mobile Banking Preferences Survey",
+      "status": "completed",
+      "timestamp": "2026-11-07T02:57:06.941Z",
+      "referenceId": "task_surv_1"
+    },
+    {
+      "id": "tx_seed_3",
+      "userId": "usr_niraj_1",
+      "type": "referral_bonus",
+      "amountPoints": 50,
+      "amountInr": 5,
+      "description": "Referral reward: Friend Priya Sharma registered",
+      "status": "completed",
+      "timestamp": "2026-11-05T02:57:06.942Z",
+      "referenceId": "usr_priya_2"
+    },
+    {
+      "id": "tx_seed_4",
+      "userId": "usr_niraj_1",
+      "type": "withdrawal",
+      "amountPoints": 200,
+      "amountInr": 20,
+      "description": "UPI Payout to niraj@okaxis (UTR: UPI/412998319/2026)",
+      "status": "completed",
+      "timestamp": "2026-11-04T02:57:06.942Z",
+      "referenceId": "wd_seed_1"
+    }
+  ],
+  "withdrawals": [
+    {
+      "id": "wd_seed_1",
+      "userId": "usr_niraj_1",
+      "userMobile": "9876543210",
+      "userName": "Niraj Kumar",
+      "amountInr": 20,
+      "amountPoints": 200,
+      "upiId": "niraj@okaxis",
+      "status": "approved",
+      "utrNumber": "UPI/412998319/2026",
+      "requestedAt": "2026-11-03T02:57:06.942Z",
+      "processedAt": "2026-11-04T02:57:06.942Z"
+    },
+    {
+      "id": "wd_seed_2",
+      "userId": "usr_priya_2",
+      "userMobile": "9812345678",
+      "userName": "Priya Sharma",
+      "amountInr": 50,
+      "amountPoints": 500,
+      "upiId": "priya@paytm",
+      "status": "pending",
+      "requestedAt": "2026-11-08T02:27:06.942Z"
+    }
+  ],
+  "adminSettings": {
+    "pointsPerInr": 10,
+    "minWithdrawalInr": 50,
+    "referralBonusPoints": 50,
+    "dailyBonusBasePoints": 10,
+    "adminPin": "8899",
+    "isSystemMaintenance": false,
+    "announcementText": "N EARNING genuine task platform. Withdrawals processed directly via UPI within 24-48 hours after verification."
+  },
+  "otps": {},
+  "userSpinHistory": {}
+}
